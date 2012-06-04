@@ -554,10 +554,6 @@ var jsPDF = function(/** String */ orientation, /** String */ unit, /** String *
 		circle: function(x, y, r, style) {
 			return this.ellipse(x, y, r, r, style)
 		},
-		image: function(x, y, url) {
-			
-			return _jsPDF
-		},
 		line: function(x1, y1, x2, y2) {
 			out(
 				f2(x1 * k) + ' ' + f2((pageHeight - y1) * k) + ' m ' +
